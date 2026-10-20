@@ -26,4 +26,6 @@ No haga downgrade de una base actualizada: los programas 0.1.x no entienden el n
 
 El instalador incluye avisos de los componentes que utiliza. SumatraPDF 3.6.1 se incluye sin modificar como programa independiente; su código fuente oficial correspondiente se adjunta a la release como `SumatraPDF-3.6.1-source.zip`. Fuente original y licencia: [SumatraPDF 3.6.1rel](https://github.com/sumatrapdfreader/sumatrapdf/tree/3.6.1rel).
 
+Las bibliotecas dinámicas Qt/PySide6 6.10.2 se distribuyen sin modificar, con sus licencias y fuentes originales adjuntos a la release: Qt Base, Qt SVG, Qt ImageFormats y PySide6/Shiboken. Fuentes originales: [Qt 6.10.2](https://download.qt.io/archive/qt/6.10/6.10.2/submodules/) y [Qt for Python 6.10.2](https://download.qt.io/official_releases/QtForPython/pyside6/PySide6-6.10.2-src/). Las bibliotecas permanecen reemplazables en `_internal`.
+
 Windows 10/11 x64. La aplicación funciona sin Internet; únicamente la búsqueda y descarga de actualizaciones requieren conexión.
